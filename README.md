@@ -2,10 +2,10 @@ Test file system
 ================
 
 File test.img contains a file system image with a partition table hosting a
-single partition.
+two partitions.
 
-This partition contains a file description.txt with content 'file system on
-partition 1'.
+Only the second partition carries a file system. This partition contains a file
+description.txt with content 'file system on partition 2'.
 
 The start of the image can alternatively be interpreted as a separate file
 system containing a file description.txt with content 'file system on block
