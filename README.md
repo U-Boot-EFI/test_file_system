@@ -17,4 +17,4 @@ The start of the image can alternatively be interpreted as a separate file
 system containing a file description.txt with content 'file system on block
 device'.
 
-test.sh is a script that can be used to recreate the image.
+create\_image.sh is a script that can be used to recreate the image.
